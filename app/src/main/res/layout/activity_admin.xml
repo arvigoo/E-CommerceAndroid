@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCF0D6"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Admin">
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:id="@+id/staff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="datastaff"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Staff"
+            android:textSize="20dp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <ImageView
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/staff">
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:id="@+id/stock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="datastock"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Stock"
+            android:textSize="20dp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <ImageView
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/stock">
+        </ImageView>
+    </LinearLayout>
+
+</LinearLayout>
